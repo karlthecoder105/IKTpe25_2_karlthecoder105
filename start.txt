@@ -1,0 +1,6 @@
+print ("saame tuttavaks!")
+nimi =input("mis on su nimi?")
+print("tere," +nimi +"!")
+vanus = int(input("kui vana sa oled"))               #täisarv
+print ("oled " +str(vanus) + "aastat vana.")
+print (f"järgmine aasta oled {vanus +1} aastat vana.")
